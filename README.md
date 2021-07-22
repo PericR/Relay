@@ -1,4 +1,4 @@
-# NAZIV PROIZVODA Arduino library
+# Relay EasyC Arduino library
 
 [![Compile Sketches](https://github.com/e-radionicacom/Relay/actions/workflows/compile_test.yml/badge.svg?branch=dev)](https://github.com/e-radionicacom/Relay/actions/workflows/compile_test.yml)
 [![Make docs and publish to GitHub Pages](https://github.com/e-radionicacom/Relay/actions/workflows/make_docs.yml/badge.svg?branch=dev)](https://github.com/e-radionicacom/Relay/actions/workflows/make_docs.yml)
