@@ -5,7 +5,7 @@
  * @brief       Basic funtions for easyC
  *
  *
- * @copyright GNU General Public License v3.0
+ *
  * @authors     @ soldered.com
  ***************************************************/
 
@@ -106,7 +106,7 @@ int EasyC::readData(char a[], int n)
  *
  * @return int       Standard endTransmission error codes
  */
-int EasyC::sendData(const uint8_t *a, int n)
+int EasyC::sendData(char a[], int n)
 {
     Wire.beginTransmission(address);
     Wire.write(a, n);
