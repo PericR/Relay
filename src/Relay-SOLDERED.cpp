@@ -27,7 +27,6 @@ CH_Relay::CH_Relay(int _pin)
  */
 CH_Relay::CH_Relay()
 {
-
 }
 
 /**
@@ -41,10 +40,10 @@ void CH_Relay::initializeNative()
 
 /**
  * @brief       relayControl send two bytes of data to relay to turn it on or off
- * 
+ *
  * @param       int channel sends channel pin to relay
- * 
- * @param       int mode sends HIGH or LOW to relay 
+ *
+ * @param       int mode sends HIGH or LOW to relay
  */
 void CH_Relay::relayControl(int channel, int mode)
 {
@@ -56,10 +55,10 @@ void CH_Relay::relayControl(int channel, int mode)
 
 /**
  * @brief       relayControlNative send two bytes of data to relay to turn it on or off
- * 
+ *
  * @param       int pin thats connected to relay
- * 
- * @param       int mode sends HIGH or LOW to relay 
+ *
+ * @param       int mode sends HIGH or LOW to relay
  */
 void CH_Relay::relayControlNative(int pin, int mode)
 {
