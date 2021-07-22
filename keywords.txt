@@ -6,12 +6,20 @@
 # Datatypes (KEYWORD1)
 ##################################################
 
+CH_Relay        KEYWORD1
+
 ##################################################
 # Methods and Functions (KEYWORD2)
 ##################################################
 
-begin	KEYWORD2
+begin	            KEYWORD2
+relayControl        KEYWORD2
+relayControlNative  KEYWORD2
+initializeNative    KEYWORD2
 
 ##################################################
 # Constants (LITERAL1)
 ##################################################
+
+CHANNEL1_PIN        LITERAL1
+CHANNEL2_PIN        LITERAL1
