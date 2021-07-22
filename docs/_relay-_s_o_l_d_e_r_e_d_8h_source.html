@@ -97,8 +97,8 @@ $(document).ready(function(){initNavTree('_relay-_s_o_l_d_e_r_e_d_8h_source.html
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#include &quot;Arduino.h&quot;</span></div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="easy_c_8h.html">libs/Generic-easyC/easyC.h</a>&quot;</span></div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#define CHANNEL1_PIN        0</span></div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#define CHANNEL2_PIN        1</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#define CHANNEL1_PIN 0</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#define CHANNEL2_PIN 1</span></div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="comment">/* To be added later for 4 channel relay (Maybe)</span></div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="comment">#define CHANNEL3_PIN        0</span></div>
@@ -113,20 +113,21 @@ $(document).ready(function(){initNavTree('_relay-_s_o_l_d_e_r_e_d_8h_source.html
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160; </div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_c_h___relay.html#a603e3fb39a4dc6abd35fec2774f241ab">relayControl</a>(<span class="keywordtype">int</span> channel, <span class="keywordtype">int</span> mode);</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_c_h___relay.html#aec3f408473d8a6f697d13b046ba6dab9">relayControlNative</a>(<span class="keywordtype">int</span> <a class="code" href="class_c_h___relay.html#ae399df1ae988f4bd322d3333bb18fa76">pin</a>, <span class="keywordtype">int</span> mode);</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;  <span class="keyword">protected</span>:</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_c_h___relay.html#a461ed4ebcac20585424640a46b6e11a1">initializeNative</a>();</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;  <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="class_c_h___relay.html#ae399df1ae988f4bd322d3333bb18fa76">   41</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="class_c_h___relay.html#ae399df1ae988f4bd322d3333bb18fa76">pin</a>;</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;};</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160; </div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160; </div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;  <span class="keyword">protected</span>:</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_c_h___relay.html#a461ed4ebcac20585424640a46b6e11a1">initializeNative</a>();</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;  <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="class_c_h___relay.html#ae399df1ae988f4bd322d3333bb18fa76">   42</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="class_c_h___relay.html#ae399df1ae988f4bd322d3333bb18fa76">pin</a>;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;};</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aclass_c_h___relay_html"><div class="ttname"><a href="class_c_h___relay.html">CH_Relay</a></div><div class="ttdef"><b>Definition:</b> Relay-SOLDERED.h:29</div></div>
-<div class="ttc" id="aclass_c_h___relay_html_a461ed4ebcac20585424640a46b6e11a1"><div class="ttname"><a href="class_c_h___relay.html#a461ed4ebcac20585424640a46b6e11a1">CH_Relay::initializeNative</a></div><div class="ttdeci">void initializeNative()</div><div class="ttdoc">Overloaded function for virtual in base class to initialize sensor specific.</div><div class="ttdef"><b>Definition:</b> Relay-SOLDERED.cpp:36</div></div>
-<div class="ttc" id="aclass_c_h___relay_html_a603e3fb39a4dc6abd35fec2774f241ab"><div class="ttname"><a href="class_c_h___relay.html#a603e3fb39a4dc6abd35fec2774f241ab">CH_Relay::relayControl</a></div><div class="ttdeci">void relayControl(int channel, int mode)</div><div class="ttdoc">relayControl send two bytes of data to relay to turn it on or off</div><div class="ttdef"><b>Definition:</b> Relay-SOLDERED.cpp:49</div></div>
+<div class="ttc" id="aclass_c_h___relay_html_a461ed4ebcac20585424640a46b6e11a1"><div class="ttname"><a href="class_c_h___relay.html#a461ed4ebcac20585424640a46b6e11a1">CH_Relay::initializeNative</a></div><div class="ttdeci">void initializeNative()</div><div class="ttdoc">Overloaded function for virtual in base class to initialize sensor specific.</div><div class="ttdef"><b>Definition:</b> Relay-SOLDERED.cpp:35</div></div>
+<div class="ttc" id="aclass_c_h___relay_html_a603e3fb39a4dc6abd35fec2774f241ab"><div class="ttname"><a href="class_c_h___relay.html#a603e3fb39a4dc6abd35fec2774f241ab">CH_Relay::relayControl</a></div><div class="ttdeci">void relayControl(int channel, int mode)</div><div class="ttdoc">relayControl send two bytes of data to relay to turn it on or off</div><div class="ttdef"><b>Definition:</b> Relay-SOLDERED.cpp:48</div></div>
 <div class="ttc" id="aclass_c_h___relay_html_abe8b607eab894723fa332905253ca177"><div class="ttname"><a href="class_c_h___relay.html#abe8b607eab894723fa332905253ca177">CH_Relay::CH_Relay</a></div><div class="ttdeci">CH_Relay()</div><div class="ttdoc">Constructor for relay control.</div><div class="ttdef"><b>Definition:</b> Relay-SOLDERED.cpp:28</div></div>
-<div class="ttc" id="aclass_c_h___relay_html_ae399df1ae988f4bd322d3333bb18fa76"><div class="ttname"><a href="class_c_h___relay.html#ae399df1ae988f4bd322d3333bb18fa76">CH_Relay::pin</a></div><div class="ttdeci">int pin</div><div class="ttdef"><b>Definition:</b> Relay-SOLDERED.h:41</div></div>
-<div class="ttc" id="aclass_c_h___relay_html_aec3f408473d8a6f697d13b046ba6dab9"><div class="ttname"><a href="class_c_h___relay.html#aec3f408473d8a6f697d13b046ba6dab9">CH_Relay::relayControlNative</a></div><div class="ttdeci">void relayControlNative(int pin, int mode)</div><div class="ttdoc">relayControlNative send two bytes of data to relay to turn it on or off</div><div class="ttdef"><b>Definition:</b> Relay-SOLDERED.cpp:64</div></div>
+<div class="ttc" id="aclass_c_h___relay_html_ae399df1ae988f4bd322d3333bb18fa76"><div class="ttname"><a href="class_c_h___relay.html#ae399df1ae988f4bd322d3333bb18fa76">CH_Relay::pin</a></div><div class="ttdeci">int pin</div><div class="ttdef"><b>Definition:</b> Relay-SOLDERED.h:42</div></div>
+<div class="ttc" id="aclass_c_h___relay_html_aec3f408473d8a6f697d13b046ba6dab9"><div class="ttname"><a href="class_c_h___relay.html#aec3f408473d8a6f697d13b046ba6dab9">CH_Relay::relayControlNative</a></div><div class="ttdeci">void relayControlNative(int pin, int mode)</div><div class="ttdoc">relayControlNative send two bytes of data to relay to turn it on or off</div><div class="ttdef"><b>Definition:</b> Relay-SOLDERED.cpp:63</div></div>
 <div class="ttc" id="aclass_easy_c_html"><div class="ttname"><a href="class_easy_c.html">EasyC</a></div><div class="ttdef"><b>Definition:</b> easyC.h:22</div></div>
 <div class="ttc" id="aeasy_c_8h_html"><div class="ttname"><a href="easy_c_8h.html">easyC.h</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
@@ -137,7 +138,7 @@ $(document).ready(function(){initNavTree('_relay-_s_o_l_d_e_r_e_d_8h_source.html
     <ul>
         <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="_relay-_s_o_l_d_e_r_e_d_8h.html">Relay-SOLDERED.h</a></li>
         <li class="footer">
-            Generated on Thu Jul 22 2021 11:22:36 for Relay Library by <a href="http://www.doxygen.org/index.html">
+            Generated on Thu Jul 22 2021 11:27:44 for Relay Library by <a href="http://www.doxygen.org/index.html">
                 <img class="footer" src="doxygen.png" alt="doxygen"
                     onerror="this.onerror=null;this.src='doxygen.svg';" /></a> 1.9.1.
             Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
