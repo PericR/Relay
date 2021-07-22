@@ -1,6 +1,10 @@
 var searchData=
 [
-  ['readdata_14',['readData',['../class_easy_c.html#a9a3d39be50b348768bc4b5dea3dae01a',1,'EasyC']]],
-  ['readme_2emd_15',['README.md',['../_r_e_a_d_m_e_8md.html',1,'']]],
-  ['readregister_16',['readRegister',['../class_easy_c.html#a45bd6c915c1fa0998e273f69ee2d2376',1,'EasyC']]]
+  ['readdata_13',['readData',['../class_easy_c.html#a9a3d39be50b348768bc4b5dea3dae01a',1,'EasyC']]],
+  ['readme_2emd_14',['README.md',['../_r_e_a_d_m_e_8md.html',1,'']]],
+  ['readregister_15',['readRegister',['../class_easy_c.html#a45bd6c915c1fa0998e273f69ee2d2376',1,'EasyC']]],
+  ['relay_2dsoldered_2ecpp_16',['Relay-SOLDERED.cpp',['../_relay-_s_o_l_d_e_r_e_d_8cpp.html',1,'']]],
+  ['relay_2dsoldered_2eh_17',['Relay-SOLDERED.h',['../_relay-_s_o_l_d_e_r_e_d_8h.html',1,'']]],
+  ['relaycontrol_18',['relayControl',['../class_c_h___relay.html#a603e3fb39a4dc6abd35fec2774f241ab',1,'CH_Relay']]],
+  ['relaycontrolnative_19',['relayControlNative',['../class_c_h___relay.html#aec3f408473d8a6f697d13b046ba6dab9',1,'CH_Relay']]]
 ];

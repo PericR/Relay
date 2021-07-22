@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>16x2 easyC LCD Library: easyC.h Source File</title>
+<title>Relay Library: easyC.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -28,10 +28,10 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">16x2 easyC LCD Library
-   &#160;<span id="projectnumber">1.0.0</span>
+   <div id="projectname">Relay Library
+   &#160;<span id="projectnumber">0.1.0</span>
    </div>
-   <div id="projectbrief">This is a library for the 16x2 easyC LCD Module</div>
+   <div id="projectbrief">This is a library for the Relay board with easyC comunication</div>
   </td>
  </tr>
  </tbody>
@@ -121,7 +121,7 @@ $(document).ready(function(){initNavTree('easy_c_8h_source.html',''); initResiza
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="class_easy_c.html#a10aa7df19e8c7bf12cd720b662f317a3">sendAddress</a>(<span class="keywordtype">char</span> regAddr);</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="class_easy_c.html#a9a3d39be50b348768bc4b5dea3dae01a">readData</a>(<span class="keywordtype">char</span> a[], <span class="keywordtype">int</span> n);</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="class_easy_c.html#afe8aa014ae53cad3b0f3c42f59277195">sendData</a>(<span class="keyword">const</span> uint8_t *a, <span class="keywordtype">int</span> n);</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="class_easy_c.html#a5231ae10c997be43f09532a6793fc8ea">sendData</a>(<span class="keywordtype">char</span> a[], <span class="keywordtype">int</span> n);</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="class_easy_c.html#a45bd6c915c1fa0998e273f69ee2d2376">readRegister</a>(<span class="keywordtype">char</span> regAddr, <span class="keywordtype">char</span> a[], <span class="keywordtype">size_t</span> n);</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;};</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160; </div>
@@ -133,12 +133,12 @@ $(document).ready(function(){initNavTree('easy_c_8h_source.html',''); initResiza
 <div class="ttc" id="aclass_easy_c_html_a2f55de657a84e73edda23dae91d30436"><div class="ttname"><a href="class_easy_c.html#a2f55de657a84e73edda23dae91d30436">EasyC::beginDone</a></div><div class="ttdeci">bool beginDone</div><div class="ttdef"><b>Definition:</b> easyC.h:31</div></div>
 <div class="ttc" id="aclass_easy_c_html_a45bd6c915c1fa0998e273f69ee2d2376"><div class="ttname"><a href="class_easy_c.html#a45bd6c915c1fa0998e273f69ee2d2376">EasyC::readRegister</a></div><div class="ttdeci">int readRegister(char regAddr, char a[], size_t n)</div><div class="ttdoc">Private function to send over i2c and then read n bytes.</div><div class="ttdef"><b>Definition:</b> easyC.cpp:59</div></div>
 <div class="ttc" id="aclass_easy_c_html_a48c8aa55d48ef0cc11047cab0735c998"><div class="ttname"><a href="class_easy_c.html#a48c8aa55d48ef0cc11047cab0735c998">EasyC::initializeNative</a></div><div class="ttdeci">virtual void initializeNative()=0</div></div>
+<div class="ttc" id="aclass_easy_c_html_a5231ae10c997be43f09532a6793fc8ea"><div class="ttname"><a href="class_easy_c.html#a5231ae10c997be43f09532a6793fc8ea">EasyC::sendData</a></div><div class="ttdeci">int sendData(char a[], int n)</div><div class="ttdoc">Private function to write n bytes over i2c.</div><div class="ttdef"><b>Definition:</b> easyC.cpp:109</div></div>
 <div class="ttc" id="aclass_easy_c_html_a6f4c6f2e8723b0c0495e126d49f5fcda"><div class="ttname"><a href="class_easy_c.html#a6f4c6f2e8723b0c0495e126d49f5fcda">EasyC::address</a></div><div class="ttdeci">char address</div><div class="ttdef"><b>Definition:</b> easyC.h:37</div></div>
 <div class="ttc" id="aclass_easy_c_html_a8b880d5daf116adde0cc436f1e4c0853"><div class="ttname"><a href="class_easy_c.html#a8b880d5daf116adde0cc436f1e4c0853">EasyC::err</a></div><div class="ttdeci">int err</div><div class="ttdef"><b>Definition:</b> easyC.h:35</div></div>
 <div class="ttc" id="aclass_easy_c_html_a9052ae674b3553bbb19283278299f395"><div class="ttname"><a href="class_easy_c.html#a9052ae674b3553bbb19283278299f395">EasyC::defaultAddress</a></div><div class="ttdeci">const char defaultAddress</div><div class="ttdef"><b>Definition:</b> easyC.h:38</div></div>
 <div class="ttc" id="aclass_easy_c_html_a9a3d39be50b348768bc4b5dea3dae01a"><div class="ttname"><a href="class_easy_c.html#a9a3d39be50b348768bc4b5dea3dae01a">EasyC::readData</a></div><div class="ttdeci">int readData(char a[], int n)</div><div class="ttdoc">Private function to read n bytes over i2c.</div><div class="ttdef"><b>Definition:</b> easyC.cpp:93</div></div>
 <div class="ttc" id="aclass_easy_c_html_abb766b60f26778dbc64e8792fd754729"><div class="ttname"><a href="class_easy_c.html#abb766b60f26778dbc64e8792fd754729">EasyC::native</a></div><div class="ttdeci">int native</div><div class="ttdef"><b>Definition:</b> easyC.h:30</div></div>
-<div class="ttc" id="aclass_easy_c_html_afe8aa014ae53cad3b0f3c42f59277195"><div class="ttname"><a href="class_easy_c.html#afe8aa014ae53cad3b0f3c42f59277195">EasyC::sendData</a></div><div class="ttdeci">int sendData(const uint8_t *a, int n)</div><div class="ttdoc">Private function to write n bytes over i2c.</div><div class="ttdef"><b>Definition:</b> easyC.cpp:109</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
@@ -147,7 +147,7 @@ $(document).ready(function(){initNavTree('easy_c_8h_source.html',''); initResiza
     <ul>
         <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_87a455bccb09a92130c26a11a880c98a.html">libs</a></li><li class="navelem"><a class="el" href="dir_3db0dda00e9f66085ea9403aa7e09fb8.html">Generic-easyC</a></li><li class="navelem"><a class="el" href="easy_c_8h.html">easyC.h</a></li>
         <li class="footer">
-            Generated on Thu Jul 22 2021 09:43:03 for 16x2 easyC LCD Library by <a href="http://www.doxygen.org/index.html">
+            Generated on Thu Jul 22 2021 11:22:36 for Relay Library by <a href="http://www.doxygen.org/index.html">
                 <img class="footer" src="doxygen.png" alt="doxygen"
                     onerror="this.onerror=null;this.src='doxygen.svg';" /></a> 1.9.1.
             Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.

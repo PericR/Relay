@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['pin_13',['pin',['../class_sensor.html#a0efecf34431610766469857f25e113da',1,'Sensor']]]
+  ['pin_12',['pin',['../class_c_h___relay.html#ae399df1ae988f4bd322d3333bb18fa76',1,'CH_Relay']]]
 ];
