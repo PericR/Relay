@@ -9,8 +9,8 @@
  * @authors     @ soldered.com @Robert Peric
  ***************************************************/
 
-#ifndef _RELAY_H
-#define _RELAY_H
+#ifndef __RELAY_SOLDERED__
+#define __RELAY_SOLDERED__
 
 #include "Arduino.h"
 #include "libs/Generic-easyC/easyC.h"
