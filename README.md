@@ -1,6 +1,6 @@
 # Relay EasyC Arduino library
 
-[![Compile Sketches](https://github.com/e-radionicacom/Relay/actions/workflows/compile_test.yml/badge.svg?branch=dev)](https://github.com/e-radionicacom/Relay/actions/workflows/compile_test.yml)
+[![Compile Sketches](http://github-actions.40ants.com/e-radionicacom/Soldered-Generic-Arduino-Library/matrix.svg?branch=dev&only=Compile%20Sketches)](https://github.com/e-radionicacom/Soldered-Generic-Arduino-Library/actions/workflows/compile_test.yml)
 [![Make docs and publish to GitHub Pages](https://github.com/e-radionicacom/Relay/actions/workflows/make_docs.yml/badge.svg?branch=dev)](https://github.com/e-radionicacom/Relay/actions/workflows/make_docs.yml)
 
 | ![Relay](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
