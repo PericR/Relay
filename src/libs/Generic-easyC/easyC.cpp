@@ -11,6 +11,9 @@
 
 #include "easyC.h"
 
+namespace RELAY_SOLDERED_LIBS
+{
+
 /**
  * @brief       Main constructor for easyC version
  *
@@ -113,3 +116,5 @@ int EasyC::sendData(char a[], int n)
 
     return err = Wire.endTransmission();
 }
+
+} // namespace RELAY_SOLDERED_LIBS
