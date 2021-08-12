@@ -25,7 +25,8 @@
 #define CHANNEL3_PIN        0
 #define CHANNEL4_PIN        0
 */
-class CH_Relay : public EasyC
+
+class CH_Relay : public RELAY_SOLDERED_LIBS::EasyC
 {
   public:
     CH_Relay(int _pin);
