@@ -26,6 +26,9 @@ var NAVTREE =
 [
   [ "Relay Library", "index.html", [
     [ "Relay EasyC Arduino library", "index.html", null ],
+    [ "Namespaces", "namespaces.html", [
+      [ "Namespace List", "namespaces.html", "namespaces_dup" ]
+    ] ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
