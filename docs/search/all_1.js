@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['begin_1',['begin',['../class_r_e_l_a_y___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c.html#af23a3db9f1e3d2cd1e92c487524e8d3a',1,'RELAY_SOLDERED_LIBS::EasyC::begin()'],['../class_r_e_l_a_y___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c.html#ab2dc3ae271105adf7fb07b48978a4516',1,'RELAY_SOLDERED_LIBS::EasyC::begin(uint8_t _address)']]],
-  ['begindone_2',['beginDone',['../class_r_e_l_a_y___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c.html#af8db8c74ff91d34dc8ac3ee86bdc5c30',1,'RELAY_SOLDERED_LIBS::EasyC']]]
+  ['begin_0',['begin',['../class_easy_c.html#a1b5a82b8a59daea79de76e496457e176',1,'EasyC::begin()'],['../class_easy_c.html#a9e71467da6f38cbe47b10e96694a4f91',1,'EasyC::begin(uint8_t _address)']]],
+  ['begindone_1',['beginDone',['../class_easy_c.html#a2f55de657a84e73edda23dae91d30436',1,'EasyC']]]
 ];
