@@ -26,8 +26,6 @@ void setup()
 
 void loop()
 {
-void loop()
-{
     //Turn on relay 1
     Relay.relayControl(CHANNEL1, HIGH);
     delay(1500);
