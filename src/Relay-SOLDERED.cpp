@@ -17,7 +17,7 @@
  *
  * @param int _pin          Example parameter.
  */
-CH_Relay::CH_Relay(int _pin1, _pin2 = 0)
+CH_Relay::CH_Relay(int _pin1, int _pin2 = 0)
 {
     native = 1;
     pin1 = _pin1;
