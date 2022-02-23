@@ -18,29 +18,26 @@
 /**
  * RElay chanels
  */
-#define CHANNEL1_PIN 0
-#define CHANNEL2_PIN 1
+#define CHANNEL1 0
+#define CHANNEL2 1
 
 /* To be added later for 4 channel relay (Maybe)
-#define CHANNEL3_PIN        0
-#define CHANNEL4_PIN        0
+#define CHANNEL3        0
+#define CHANNEL4        0
 */
 
 class CH_Relay : public EasyC
 {
   public:
-    CH_Relay(int _pin);
+    CH_Relay(int _pin1, int _pin2);
     CH_Relay();
-
-
     void relayControl(int channel, int mode);
-    void relayControlNative(int pin, int mode);
 
   protected:
     void initializeNative();
 
   private:
-    int pin;
+    int pin1, pin2;
 };
 
 #endif
