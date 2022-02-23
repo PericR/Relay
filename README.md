@@ -1,13 +1,13 @@
-# Relay EasyC Arduino library
+# Relay breakout board easyC Arduino library
 
 [![Compile Sketches](http://github-actions.40ants.com/e-radionicacom/Soldered-Relay-Arduino-Library/matrix.svg?branch=dev&only=Compile%20Sketches)](https://github.com/e-radionicacom/Soldered-Relay-Arduino-Library/actions/workflows/compile_test.yml)
 [![Make docs and publish to GitHub Pages](https://github.com/e-radionicacom/Relay/actions/workflows/make_docs.yml/badge.svg?branch=dev)](https://github.com/e-radionicacom/Relay/actions/workflows/make_docs.yml)
 
-| ![Relay](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
+| ![Relay breakout board](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
 | :---------------------------------------------------------------------------------------------: |
-| [Relay](https://www.solde.red/333021)                                                            |
+| [Relay breakout board](https://www.solde.red/333021)                                                            |
 
-Relay board easyC connectivity [easyC ecosystem](https://www.soldered.com/easyC). 
+Relay breakout board easyC connectivity [easyC ecosystem](https://www.soldered.com/easyC). 
 
 ### Repository Contents
 - **/src** - source files for the library (.h & .cpp)
@@ -15,13 +15,13 @@ Relay board easyC connectivity [easyC ecosystem](https://www.soldered.com/easyC)
 - ***other*** - *keywords* file highlights function words in your IDE, *library.properties* enables implementation with Arduino Library Manager.
 
 ### Hardware design
-You can find hardware design for this board in Relay board easyC hardware repository
+You can find hardware design for this board in Relay breakout board easyC hardware repository
 
 ### Documentation
 
 Access Arduino library documentation [here](https://e-radionicacom.github.io/Soldered-Relay-Arduino-Library/).
 
-- Tutorial for using the EasyC Relay board
+- Tutorial for using the Relay breakout board
 - Installing an Arduino library
 
 ### About Soldered
