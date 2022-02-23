@@ -6,6 +6,5 @@ var searchData=
   ['relay_20breakout_20board_20easyc_20arduino_20library_3',['Relay breakout board easyC Arduino library',['../index.html',1,'']]],
   ['relay_2dsoldered_2ecpp_4',['Relay-SOLDERED.cpp',['../_relay-_s_o_l_d_e_r_e_d_8cpp.html',1,'']]],
   ['relay_2dsoldered_2eh_5',['Relay-SOLDERED.h',['../_relay-_s_o_l_d_e_r_e_d_8h.html',1,'']]],
-  ['relaycontrol_6',['relayControl',['../class_c_h___relay.html#a603e3fb39a4dc6abd35fec2774f241ab',1,'CH_Relay']]],
-  ['relaycontrolnative_7',['relayControlNative',['../class_c_h___relay.html#aec3f408473d8a6f697d13b046ba6dab9',1,'CH_Relay']]]
+  ['relaycontrol_6',['relayControl',['../class_c_h___relay.html#a603e3fb39a4dc6abd35fec2774f241ab',1,'CH_Relay']]]
 ];
