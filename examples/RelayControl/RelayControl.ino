@@ -6,7 +6,7 @@
  *
  *
  *
- * @authors     @ soldered.com
+ * @authors     Robert Peric @ soldered.com
  ***************************************************/
 
 //Include our CH_Reley library
