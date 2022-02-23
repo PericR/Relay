@@ -42,4 +42,3 @@ void loop()
     Relay.relayControl(CHANNEL2, LOW);
     delay(1500);
 }
-}
