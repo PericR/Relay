@@ -50,7 +50,7 @@ void CH_Relay::relayControl(int channel, int mode)
     char data[2];
     data[0] = channel;
     data[1] = mode;
-    sendData(data, 2);
+    sendData((const *char)data, 2);
 }
 
 /**
