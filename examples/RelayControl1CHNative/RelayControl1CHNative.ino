@@ -4,7 +4,7 @@
  * @file        RelayControl1CHNative.ino
  * @brief       Relay control example to show how to control 1 channel relay board
  *
- *
+ *               Product: solde.red/333024
  *
  * @authors     Robert Peric @ soldered.com
  ***************************************************/
