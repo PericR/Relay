@@ -4,7 +4,7 @@
  * @file        RelayControl2CH.ino
  * @brief       Relay control example to show how to control 2 channel relay using easyC comunication
  *
- *
+ *               Product: solde.red/333025
  *
  * @authors     Robert Peric @ soldered.com
  ***************************************************/

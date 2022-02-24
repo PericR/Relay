@@ -4,7 +4,7 @@
  * @file        RelayControl2CHNative.ino
  * @brief       Relay control example to show how to control 2 channel relay board
  *
- *
+ *               Product: solde.red/333023
  *
  * @authors     Robert Peric @ soldered.com
  ***************************************************/
