@@ -1,5 +1,5 @@
 ##################################################
-# Syntax Coloring Map For Obstacle-Sensor-SOLDERED
+# Syntax Coloring Map For Relay-SOLDERED
 ##################################################
 
 ##################################################
@@ -14,12 +14,11 @@ CH_Relay        KEYWORD1
 
 begin	            KEYWORD2
 relayControl        KEYWORD2
-relayControlNative  KEYWORD2
 initializeNative    KEYWORD2
 
 ##################################################
 # Constants (LITERAL1)
 ##################################################
 
-CHANNEL1_PIN        LITERAL1
-CHANNEL2_PIN        LITERAL1
+CHANNEL1        LITERAL1
+CHANNEL2        LITERAL1
