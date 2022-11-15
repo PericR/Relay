@@ -1,10 +1,14 @@
-# 1-channel relay board with easyC Arduino library
+# Relay board with easyC Arduino library
 
 [![Make docs and publish to GitHub Pages](https://github.com/e-radionicacom/Soldered-Generic-Arduino-Library/actions/workflows/make_docs.yml/badge.svg?branch=dev)](https://github.com/e-radionicacom/Soldered-Generic-Arduino-Library/actions/workflows/make_docs.yml)
 
 | ![1-channel relay board with easyC](https://github.com/SolderedElectronics/1-channel-relay-board-with-easyC-hardware-design/blob/main/OUTPUTS/V1.1.1/333021.jpg) |
 | :---------------------------------------------------------------------------------------------: |
-| [1-channel relay board with easyC](https://www.solde.red/333021)                                                            |
+| [1-channel relay board with easyC](https://www.solde.red/333021)        
+
+| ![2-channel relay board with easyC](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
+| :---------------------------------------------------------------------------------------------: |
+| [2-channel relay board with easyC](https://www.solde.red/333025)                                                      |
 
 Did you ever wanted to turn on and off a device that needs large current or voltage? Whether operating on DC or AC, a relay is what you need. A relay is actually an electronic switch that is activated by a signal we send from a Dasduino or Arduino. This module further simplifies the whole process because it contains everything you need for the relay to work, and you just have to connect it to the microcontroller and power supply. You don’t have to think about voltages and currents, insulation between high and low voltage or grounding, everything is already taken care of on the board.
 
@@ -15,6 +19,15 @@ This board has easyC connector. Thanks to easyC ecosystem, this board can be con
 - Number of relays: 1 relay
 - Dimensions: 70 x 22 mm (https://www.soldered.com/en/easyC). 
 
+Did you ever wanted to turn on and off a device that needs large current or voltage? Whether operating on DC or AC, a relay is what you need. A relay is actually an electronic switch that is activated by a signal we send from a Dasduino or Arduino. This module further simplifies the whole process because it contains everything you need for the relay to work, and you just have to connect it to the microcontroller and power supply. You don’t have to think about voltages and currents, insulation between high and low voltage or grounding, everything is already taken care of on the board.
+
+This board has easyC connector. Thanks to easyC ecosystem, this board can be connected using off-the-shelf cables, without soldering. Controlling the is as simple as it gets, too. Learn more about easyC here.
+
+- Max. DC voltage and current: 30V, 10A
+- Max. AC voltage and current: 250V, 10A
+- Number of relays: 2 relays
+- Dimensions: 70 x 40 mm
+
 ### Repository Contents
 - **/src** - source files for the library (.h & .cpp)
 - **/examples** - examples for using the library
@@ -22,6 +35,8 @@ This board has easyC connector. Thanks to easyC ecosystem, this board can be con
 
 ### Hardware design
 You can find hardware design for this board in [*1-channel relay board with easyC*](https://github.com/SolderedElectronics/1-channel-relay-board-with-easyC-hardware-design) hardware repository.
+
+You can find hardware design for this board in [*2-channel relay board with easyC*](https://github.com/SolderedElectronics/1-channel-relay-board-with-easyC-hardware-design) hardware repository.
 
 ### Documentation
 
