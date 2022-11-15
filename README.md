@@ -17,16 +17,7 @@ This board has easyC connector. Thanks to easyC ecosystem, this board can be con
 - Max. DC voltage and current: 30V, 10A
 - Max. AC voltage and current: 250V, 10A
 - Number of relays: 1 relay
-- Dimensions: 70 x 22 mm (https://www.soldered.com/en/easyC). 
-
-Did you ever wanted to turn on and off a device that needs large current or voltage? Whether operating on DC or AC, a relay is what you need. A relay is actually an electronic switch that is activated by a signal we send from a Dasduino or Arduino. This module further simplifies the whole process because it contains everything you need for the relay to work, and you just have to connect it to the microcontroller and power supply. You don’t have to think about voltages and currents, insulation between high and low voltage or grounding, everything is already taken care of on the board.
-
-This board has easyC connector. Thanks to easyC ecosystem, this board can be connected using off-the-shelf cables, without soldering. Controlling the is as simple as it gets, too. Learn more about easyC here.
-
-- Max. DC voltage and current: 30V, 10A
-- Max. AC voltage and current: 250V, 10A
-- Number of relays: 2 relays
-- Dimensions: 70 x 40 mm
+- Dimensions: 70 x 22 mm (https://www.soldered.com/en/easyC)
 
 ### Repository Contents
 - **/src** - source files for the library (.h & .cpp)
