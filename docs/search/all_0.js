@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['1_2dchannel_20relay_20board_20with_20easyc_20arduino_20library_0',['1-channel relay board with easyC Arduino library',['../index.html',1,'']]]
+  ['address_0',['address',['../class_easy_c.html#a6f4c6f2e8723b0c0495e126d49f5fcda',1,'EasyC']]]
 ];
