@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['ch_5frelay_0',['CH_Relay',['../class_c_h___relay.html',1,'CH_Relay'],['../class_c_h___relay.html#a1311b71937099c3a6234764e4cc54153',1,'CH_Relay::CH_Relay(int _pin1, int _pin2=0)'],['../class_c_h___relay.html#abe8b607eab894723fa332905253ca177',1,'CH_Relay::CH_Relay()']]]
+  ['begin_0',['begin',['../class_easy_c.html#a1b5a82b8a59daea79de76e496457e176',1,'EasyC::begin()'],['../class_easy_c.html#a9e71467da6f38cbe47b10e96694a4f91',1,'EasyC::begin(uint8_t _address)']]],
+  ['begindone_1',['beginDone',['../class_easy_c.html#a2f55de657a84e73edda23dae91d30436',1,'EasyC']]]
 ];
