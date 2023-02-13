@@ -17,10 +17,8 @@ void Relay_Firmwire::begin()
 {
     pinMode(CHANNEL1_PIN, OUTPUT);
     pinMode(CHANNEL2_PIN, OUTPUT);
-    /*
     pinMode(CHANNEL3_PIN, OUTPUT);
     pinMode(CHANNEL4_PIN, OUTPUT);
-    */
 }
 
 /**

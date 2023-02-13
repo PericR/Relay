@@ -17,11 +17,13 @@
  *
  * @param int _pin          Example parameter.
  */
-CH_Relay::CH_Relay(int _pin1, int _pin2)
+CH_Relay::CH_Relay(int _pin1, int _pin2, int _pin3, int _pin4)
 {
     native = 1;
     pin1 = _pin1;
     pin2 = _pin2;
+    pin3 = _pin3;
+    pin4 = _pin4;
 }
 
 
@@ -37,10 +39,16 @@ CH_Relay::CH_Relay()
  */
 void CH_Relay::initializeNative()
 {
-    pinMode(pin1, INPUT);
+    pinMode(pin1, OUTPUT);
     if (pin2)
     {
-        pinMode(pin2, INPUT);
+        pinMode(pin2, OUTPUT);
+
+        if (pin3)
+        {
+            pinMode(pin3, OUTPUT);
+            pinMode(pin4, OUTPUT);
+        }
     }
 }
 
@@ -55,7 +63,23 @@ void CH_Relay::relayControl(int channel, int mode)
 {
     if (native)
     {
-        digitalWrite(channel ? pin2 : pin1, mode);
+        int pin;
+        switch (channel)
+        {
+        case CHANNEL1:
+            pin = pin1;
+            break;
+        case CHANNEL2:
+            pin = pin2;
+            break;
+        case CHANNEL3:
+            pin = pin3;
+            break;
+        case CHANNEL4:
+            pin = pin4;
+            break;
+        }
+        digitalWrite(pin, mode);
     }
     else
     {

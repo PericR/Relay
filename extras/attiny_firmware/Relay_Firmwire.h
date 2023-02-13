@@ -6,17 +6,16 @@
 
 #include "Arduino.h"
 
-#define CHANNEL1_PIN         0
-#define CHANNEL2_PIN         1
-/* To be added later oo when 4 channel is competed
-#define CHANNEL3_PIN         
-#define CHANNEL4_PIN         
-*/
+#define CHANNEL1_PIN 0
+#define CHANNEL2_PIN 1
+#define CHANNEL3_PIN 2
+#define CHANNEL4_PIN 8
+
 class Relay_Firmwire
 {
-private:
+  private:
     /* data */
-public:
+  public:
     Relay_Firmwire();
 
     void begin();

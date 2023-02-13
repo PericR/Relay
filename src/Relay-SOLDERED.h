@@ -16,20 +16,18 @@
 #include "libs/Generic-easyC/easyC.hpp"
 
 /**
- * RElay chanels
+ * Relay chanels
  */
 #define CHANNEL1 0
 #define CHANNEL2 1
+#define CHANNEL3 2
+#define CHANNEL4 8
 
-/* To be added later for 4 channel relay (Maybe)
-#define CHANNEL3        0
-#define CHANNEL4        0
-*/
 
 class CH_Relay : public EasyC
 {
   public:
-    CH_Relay(int _pin1, int _pin2 = 0);
+    CH_Relay(int _pin1, int _pin2 = 0, int _pin3 = 0, int _pin4 = 0);
     CH_Relay();
     void relayControl(int channel, int mode);
 
@@ -37,7 +35,7 @@ class CH_Relay : public EasyC
     void initializeNative();
 
   private:
-    int pin1, pin2;
+    int pin1, pin2, pin3, pin4;
 };
 
 #endif
