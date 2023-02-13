@@ -39,7 +39,7 @@ You can find hardware design for this board in [*4-channel relay board with easy
 
 Access Arduino library documentation [here](https://SolderedElectronics.github.io/Soldered-Relay-Arduino-Library/).
 
-- Tutorial for using the NAZIV PROIZVODA board
+- Tutorial for using the relay board with easyC
 - Installing an Arduino library
 
 ### Board compatibility
