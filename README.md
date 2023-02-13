@@ -10,6 +10,10 @@
 | :---------------------------------------------------------------------------------------------: |
 | [2-channel relay board with easyC](https://www.solde.red/333025)                                                      |
 
+| ![4-channel relay board with easyC](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
+| :---------------------------------------------------------------------------------------------: |
+| [4-channel relay board with easyC](https://www.solde.red/333216)                                                      |
+
 Did you ever wanted to turn on and off a device that needs large current or voltage? Whether operating on DC or AC, a relay is what you need. A relay is actually an electronic switch that is activated by a signal we send from a Dasduino or Arduino. This module further simplifies the whole process because it contains everything you need for the relay to work, and you just have to connect it to the microcontroller and power supply. You don’t have to think about voltages and currents, insulation between high and low voltage or grounding, everything is already taken care of on the board.
 
 This board has easyC connector. Thanks to easyC ecosystem, this board can be connected using off-the-shelf cables, without soldering. Controlling the is as simple as it gets, too. Learn more about easyC here.
@@ -29,9 +33,11 @@ You can find hardware design for this board in [*1-channel relay board with easy
 
 You can find hardware design for this board in [*2-channel relay board with easyC*](https://github.com/SolderedElectronics/1-channel-relay-board-with-easyC-hardware-design) hardware repository.
 
+You can find hardware design for this board in [*4-channel relay board with easyC*](https://github.com/SolderedElectronics/1-channel-relay-board-with-easyC-hardware-design) hardware repository.
+
 ### Documentation
 
-Access Arduino library documentation [here](https://SolderedElectronics.github.io/Soldered-Generic-Arduino-Library/).
+Access Arduino library documentation [here](https://SolderedElectronics.github.io/Soldered-Relay-Arduino-Library/).
 
 - Tutorial for using the NAZIV PROIZVODA board
 - Installing an Arduino library
@@ -51,11 +57,6 @@ At Soldered, we design and manufacture a wide selection of electronic products t
 - [Web Store](https://www.soldered.com/shop)
 - [Tutorials & Projects](https://soldered.com/learn)
 - [Community & Technical support](https://soldered.com/community)
-
-
-### Original source
-​
-This library is possible thanks to original [arduino-mcp23017](https://github.com/blemasle/arduino-mcp23017) library. Thank you, blemasle. 
 
 
 ### Open-source license
