@@ -2,7 +2,9 @@
  **************************************************
  *
  * @file        RelayControl2CHNative.ino
- * @brief       Relay control example to show how to control 2 channel relay board
+ * @brief       Relay control example to show how to control 2 channel relay board.
+ *              This example uses Dasduino Core, but you can use any other Dasduino. 
+ *              Just make sure you have correctly defined the pins you connected the relays to.
  *
  *              Product: solde.red/333023
  *
@@ -10,7 +12,7 @@
  ***************************************************/
 
 // Connecting diagram
-// Breakout      Arduino
+// Breakout      Dasduino Core
 // |-------------|
 // IN1-----------9
 // IN2-----------10
@@ -20,14 +22,16 @@
 // Include our CH_Reley library
 #include "Relay-SOLDERED.h"
 
+// Dasduino pins on which relays are connected
 #define RELAY1_PIN 9
 #define RELAY2_PIN 10
 
-CH_Relay Relay(RELAY1_PIN, RELAY2_PIN); // Here is needed to specify the pins on which relays are connected
+// Here is needed to specify Dasduino pins on which relays are connected
+CH_Relay Relay(RELAY1_PIN, RELAY2_PIN);
 
 void setup()
 {
-    Relay.begin(); // Initialize relay
+    Relay.begin(); // Initialize relay library
 }
 
 void loop()

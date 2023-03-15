@@ -1,6 +1,3 @@
-
-
-
 #ifndef _RELAY_FIRMWIRE_H
 #define _RELAY_FIRMWIRE_H
 

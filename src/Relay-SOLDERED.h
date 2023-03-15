@@ -27,7 +27,7 @@
 class CH_Relay : public EasyC
 {
   public:
-    CH_Relay(int _pin1, int _pin2 = 0, int _pin3 = 0, int _pin4 = 0);
+    CH_Relay(int _pin1, int _pin2 = -1, int _pin3 = -1, int _pin4 = -1);
     CH_Relay();
     void relayControl(int channel, int mode);
 

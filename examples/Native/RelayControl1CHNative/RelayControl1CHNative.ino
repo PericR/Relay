@@ -2,7 +2,9 @@
  **************************************************
  *
  * @file        RelayControl1CHNative.ino
- * @brief       Relay control example to show how to control 1 channel relay board
+ * @brief       Relay control example to show how to control 1 channel relay board.
+ *              This example uses Dasduino Core, but you can use any other Dasduino. 
+ *              Just make sure you have correctly defined the pins you connected the relay to.
  *
  *              Product: solde.red/333024
  *
@@ -10,7 +12,7 @@
  ***************************************************/
 
 // Connecting diagram
-// Breakout      Arduino
+// Breakout      Dasduino Core
 // |-------------|
 // IN------------9
 // GND-----------GND
@@ -25,7 +27,7 @@ CH_Relay Relay(RELAY_PIN); // Here is needed to specify the pin on which relay i
 
 void setup()
 {
-    Relay.begin(); // Initialize relay
+    Relay.begin(); // Initialize relay library
 }
 
 void loop()
