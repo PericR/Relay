@@ -12,8 +12,8 @@ CH_Relay KEYWORD1
 # Methods and Functions (KEYWORD2)
 ##################################################
 
-begin KEYWORD2
-relayControl KEYWORD2
+begin            KEYWORD2
+relayControl     KEYWORD2
 initializeNative KEYWORD2
 
 ##################################################
