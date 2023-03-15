@@ -4,9 +4,8 @@
 
 | ![1-channel relay board with easyC](https://github.com/SolderedElectronics/1-channel-relay-board-with-easyC-hardware-design/blob/main/OUTPUTS/V1.1.1/333021.jpg) |
 | :--------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-
-| [1-channel relay board with easyC](https://www.solde.red/333021) |
-
+|                                                [1-channel relay board with easyC](https://www.solde.red/333021)                                                  |
+                 
 | ![2-channel relay board with easyC](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
 | :--------------------------------------------------------------------------------------------------------: |
 |                      [2-channel relay board with easyC](https://www.solde.red/333025)                      |
