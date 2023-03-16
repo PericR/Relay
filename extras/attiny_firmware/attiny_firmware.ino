@@ -9,7 +9,7 @@
 
 #include "easyC.h"
 #include <Wire.h>
-#include "Relay_Firmwire.h"
+#include "attiny_firmware.h"
 
 // Default address is 0x30
 int addr = DEFAULT_ADDRESS; 

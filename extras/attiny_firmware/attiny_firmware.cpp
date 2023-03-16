@@ -1,4 +1,4 @@
-#include "Relay_Firmwire.h"
+#include "attiny_firmware.h"
 
 /**
  * @brief       default constructor with nothing in it
@@ -26,4 +26,3 @@ void Relay_Firmwire::controlRelay(uint8_t channel, uint8_t mode)
 {
     digitalWrite(channel, mode);
 }
-
