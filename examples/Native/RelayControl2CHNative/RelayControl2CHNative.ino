@@ -14,8 +14,8 @@
 // Connecting diagram
 // Breakout      Dasduino Core
 // |-------------|
-// IN1-----------9
-// IN2-----------10
+// IN1-----------D9
+// IN2-----------D10
 // GND-----------GND
 // VCC-----------5V
 
@@ -31,7 +31,8 @@ CH_Relay Relay(RELAY1_PIN, RELAY2_PIN);
 
 void setup()
 {
-    Relay.begin(); // Initialize relay library
+    // Initialize relay library
+    Relay.begin(); 
 }
 
 void loop()

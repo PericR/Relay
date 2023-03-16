@@ -3,7 +3,7 @@
  *
  * @file        RelayControl4CHNative.ino
  * @brief       Relay control example to show how to control 4 channel relay board.
- *              This example uses Dasduino Core, but you can use any other Dasduino. 
+ *              This example uses Dasduino Core, but you can use any other Dasduino.
  *              Just make sure you have correctly defined the pins you connected the relays to.
  *
  *              Product: solde.red/333022
@@ -14,10 +14,10 @@
 // Connecting diagram
 // Breakout      Dasduino Core
 // |-------------|
-// IN1-----------9
-// IN2-----------10
-// IN3-----------11
-// IN4-----------12
+// IN1-----------D9
+// IN2-----------D10
+// IN3-----------D11
+// IN4-----------D12
 // GND-----------GND
 // VCC-----------5V
 
@@ -35,7 +35,8 @@ CH_Relay Relay(RELAY1_PIN, RELAY2_PIN, RELAY3_PIN, RELAY4_PIN);
 
 void setup()
 {
-    Relay.begin(); // Initialize relay library
+    // Initialize relay library
+    Relay.begin();
 }
 
 void loop()
