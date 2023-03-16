@@ -25,7 +25,7 @@
 var NAVTREE =
 [
   [ "Relay breakout board Library", "index.html", [
-    [ "Relay board with easyC Arduino library", "index.html", "index" ],
+    [ "Relay board Arduino library", "index.html", "index" ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
