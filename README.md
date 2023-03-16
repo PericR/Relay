@@ -1,4 +1,4 @@
-# Relay board with easyC Arduino library
+# Relay board Arduino library
 
 [![Make docs and publish to GitHub Pages](https://github.com/SolderedElectronics/Soldered-Relay-Arduino-Library/actions/workflows/make_docs.yml/badge.svg?branch=dev)](https://github.com/SolderedElectronics/Soldered-Relay-Arduino-Library/actions/workflows/make_docs.yml)
 
