@@ -1,6 +1,8 @@
 # Relay board Arduino library
 
 [![Make docs and publish to GitHub Pages](https://github.com/SolderedElectronics/Soldered-Relay-Arduino-Library/actions/workflows/make_docs.yml/badge.svg?branch=dev)](https://github.com/SolderedElectronics/Soldered-Relay-Arduino-Library/actions/workflows/make_docs.yml)
+[![Arduino Library Manager Compatibility](https://github.com/SolderedElectronics/Soldered-Relay-Arduino-Library/actions/workflows/arduino_lint.yml/badge.svg?branch=dev)](https://github.com/SolderedElectronics/Soldered-Relay-Arduino-Library/actions/workflows/arduino_lint.yml)
+
 
 | ![1-channel relay board with easyC](https://github.com/SolderedElectronics/1-channel-relay-board-with-easyC-hardware-design/blob/main/OUTPUTS/V1.1.1/333021.jpg) |
 | :--------------------------------------------------------------------------------------------------------------------------------------------------------------: |
