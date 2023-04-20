@@ -1,8 +1,8 @@
 var NAVTREEINDEX0 =
 {
-"_relay-_s_o_l_d_e_r_e_d_8cpp.html":[2,0,0,1],
-"_relay-_s_o_l_d_e_r_e_d_8h.html":[2,0,0,2],
-"_relay-_s_o_l_d_e_r_e_d_8h_source.html":[2,0,0,2],
+"_relays-_s_o_l_d_e_r_e_d_8cpp.html":[2,0,0,1],
+"_relays-_s_o_l_d_e_r_e_d_8h.html":[2,0,0,2],
+"_relays-_s_o_l_d_e_r_e_d_8h_source.html":[2,0,0,2],
 "annotated.html":[1,0],
 "class_c_h___relay.html":[1,0,0],
 "class_c_h___relay.html#a35d755fb545cee9d935c4d709754ca48":[1,0,0,0],
