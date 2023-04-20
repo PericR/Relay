@@ -10,7 +10,7 @@
  ***************************************************/
 
 // Include our CH_Relay library
-#include "Relay-SOLDERED.h"
+#include "Relays-SOLDERED.h"
 
 #define RELAY_ADDRESS 0x32
 

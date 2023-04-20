@@ -20,7 +20,7 @@
 // VCC-----------5V
 
 // Include our CH_Reley library
-#include "Relay-SOLDERED.h"
+#include "Relays-SOLDERED.h"
 
 // Dasduino pins on which relays are connected
 #define RELAY1_PIN 9
