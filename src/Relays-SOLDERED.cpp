@@ -10,7 +10,7 @@
  ***************************************************/
 
 
-#include "Relay-SOLDERED.h"
+#include "Relays-SOLDERED.h"
 
 /**
  * @brief                   Sensor specific native constructor for 2 channel board

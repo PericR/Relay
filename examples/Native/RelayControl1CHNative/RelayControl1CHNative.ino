@@ -19,7 +19,7 @@
 // VCC-----------5V
 
 // Include our CH_Relay library
-#include "Relay-SOLDERED.h"
+#include "Relays-SOLDERED.h"
 
 #define RELAY_PIN 9
 
